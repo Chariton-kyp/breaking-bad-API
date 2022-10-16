@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../CSS/styles.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+<header >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5 pb-4">
+        <div class="container-fluid">
+          <a href="./index.html">
+            <img class="d-none d-md-block" src="../assets/icons8-breaking-bad-96.png" alt="a breaking bad image">
+            <img class="d-block d-md-none" src="../assets/icons8-breaking-bad-48.png" alt="a breaking bad image">
+        </a>
+        <p class="fs-1 d-none d-md-block ps-4 pe-3"> 
+                Breaking Bad API
+        </p>
+        <p class="fs-3 d-block d-md-none"> 
+            Breaking Bad API
+        </p>
+        
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-4 fw-bolder text-decoration" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 fw-bolder" href="./characters.html">Characters</a>
+              </li>     
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<main class="bg-secondary min-vh-100 pt-2">
+    <div class="container-fluid mt-5 d-flex justify-content-center">
+        <div class="row bg-white w-75 border border-dark border-3 rounded p-4">
+            <div class="col-sm-1 col-lg-2"></div>
+            <div class="col-sm-10 col-lg-8">
+                <h2 class="text-center" > Welcome To Breaking Bad API Project</h2>
+                <h4 class="text-center"> So what are we going to see?</h4>
+                <h5 class="text-center "> The whole project is going to be implemented with the use of: <br> Bootstrap 5,simple JavaScript for functionallity and Ajax for API calls</h5>
+                <hr>
+                <div class="container d-flex">
+                  <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-5 col-xl-3 border mb-4">
+                      <p> In this page, You will see how the whole project is going to be implemented.</p>
+                      <p> The Home link in the the Navigation Bar shows the current page and it is the introduction.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-xl-3 border mb-4">
+                      <p> The Characters link drives you to the second page, where all the characters of Breaking Bad will be shown.</p>
+                      <p> In this page you will see the images of all the characters, their name and their nickname.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-xl-3 border ">
+                      <p> When you press at a character, a bootstrap modal will appear which will have at it's left side, the character's attributes.</p>
+                      <p> At it's right side, all the quotes of that specific character will appear in a list.</p>
+                    </div>
+                  </div>
+                </div>  
+
+            </div>
+            <div class="col-sm-1 col-lg-2"></div>
+        </div>
+    </div>
+    <div class="container mt-4">
+      <h5 class="text-center">
+        <b> Below will be one example of what is going to appear <br> 
+          in the character tab and what will showcase if you choose a character
+        </b>
+        <div class="w-100 mx-auto pt-5" id="ajaxButton">
+       
+        </div>
+      </h5>
+    </div>
+</main>
+
+<footer class="page-footer mt-auto fs-6 bg-dark pt-4">
+    <div class="footer-copyright text-center fw-light text-white py-3">
+      © 2022 Copyright: Developed by <a class="text-decoration-none text-danger" href="https://www.allweb.gr/">Allweb Solutions S.A. </a>
+    </div>
+    <div class="text-center pt-0  fw-light py-3">
+        <a class="text-decoration-none text-secondary" href="https://breakingbadapi.com/documentation">Breaking Bad API documentation</a>
+    </div>
+</footer>
+<script src="../JavaScript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
